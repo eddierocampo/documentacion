@@ -1,6 +1,6 @@
 # Documentación 
 
-Este repositorio es creado para apoyar la generación de docuemnatción de un Caso de Uso de Ansible. 
+Este repositorio es creado para apoyar la generación de documentación de un Caso de Uso de Ansible. 
 
 # Cómo suministrar la información
 
