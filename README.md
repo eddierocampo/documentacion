@@ -1,14 +1,20 @@
+# Documentación 
+
+Este repositorio es creado para apoyar la generación de docuemnatción de un Caso de Uso de Ansible. 
+
 # Cómo suministrar la información
 
-Este archivo es el instructivo del prompt. Completarlo y pegarlo en el chat cuando se pida la documentación de un caso de uso de Ansible. No forma parte del README del caso: el README se genera a partir de [README.md](README.md).
+Este archivo es el instructivo del prompt. Completarlo y pegarlo en el chat cuando se pida la documentación de un caso de uso de Ansible. No forma parte del README del caso: el README se genera a partir de [README_TEMPLATE.md](README_TEMPLATE.md).
 
 Reglas de llenado:
 
 - Escriba solo lo que existe en el caso. Si un dato no se conoce, ponga `Pendiente` o deje el campo vacío. No reutilice nombres de otro proyecto.
+- No es necesario escribir todas las variables que se utilizan.
 - Un bloque `## Caso` por cada caso de uso que deba quedar en el mismo README.
 - Rutas de playbook tal como están en el repositorio.
 - En credenciales, el nombre de la variable de entorno. Nunca la contraseña, el token ni la llave.
 - En el diagrama, los pasos en orden. El agente genera el `.drawio` y el `.png` con el estilo de [ejemplo_flujo.drawio](ejemplo_flujo.drawio).
+- Siempre valide la información generada y valide los gráficos.
 
 ```markdown
 ## Caso
